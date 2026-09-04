@@ -1,0 +1,93 @@
+# Project 1 — Raspberry Pi OS & Ubuntu Server Setup
+
+## Objective
+
+The goal of this project was to establish the base operating-system
+environment for my cybersecurity home lab.
+
+The project consisted of:
+
+- Installing Raspberry Pi OS on the Raspberry Pi 5
+- Setting up an Ubuntu Server virtual machine
+- Configuring the Ubuntu VM to run under QEMU/KVM
+- Updating the Ubuntu system
+- Verifying network connectivity
+- Confirming the environment was ready for future cybersecurity projects
+
+---
+
+## Hardware
+
+- Raspberry Pi 5
+- 8 GB RAM
+- 120 GB storage
+
+---
+
+## Operating Systems
+
+### Raspberry Pi OS
+
+Raspberry Pi OS was installed directly on the Raspberry Pi and serves
+as the primary operating system for the lab host.
+
+### Ubuntu Server
+
+Ubuntu Server was installed as a virtual machine named:
+
+`ubuntu-lab`
+
+The VM runs using:
+
+- QEMU/KVM
+- ARM64 / AArch64 architecture
+
+---
+
+## Ubuntu Configuration
+
+After installation, the system was updated using:
+
+```bash
+sudo apt update
+sudo apt upgrade -y
+
+Network Verification
+
+The following commands were used to verify the system:
+
+hostname
+ip addr
+ping -c 4 google.com
+
+The hostname confirmed the Ubuntu lab system, the ip addr command
+confirmed the network interface configuration, and the ping test
+confirmed Internet connectivity.
+
+Verification
+
+The final environment successfully reached the Ubuntu terminal:
+
+damond@ubuntu-lab:~$
+
+The system also reported that no containers required restarting after
+the system upgrade.
+
+Project Status
+
+COMPLETE
+
+The Raspberry Pi OS host and Ubuntu Server virtual machine are
+successfully operational and ready for the next phase of the
+cybersecurity home lab.
+
+Skills Practiced
+Linux installation
+Linux system administration
+Ubuntu package management
+QEMU/KVM virtualization
+ARM64 virtualization
+Network configuration
+Basic Linux troubleshooting
+Command-line administration
+
