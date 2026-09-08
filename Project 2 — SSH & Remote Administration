@@ -146,6 +146,13 @@ This confirmed that the MacBook was remotely connected to the Raspberry Pi.
 
 ---
 
+A 2015 MacBook Air was used as the SSH client to remotely connect to the Raspberry Pi 5, which was configured as the SSH server. 
+The connection was established over the local network using the Raspberry Pi’s IP address, 10.0.0.98, with the command ssh dedfr@10.0.0.98. 
+After authentication, the MacBook successfully opened a remote terminal session on the Raspberry Pi. 
+I verified the connection by remotely executing the hostname, whoami, and uptime commands. 
+This demonstrated that I could administer the Raspberry Pi remotely from the MacBook without directly interacting with the Raspberry Pi.
+
+
 # Step 6 — Verify the Remote Session
 
 Several commands were used to verify that commands were being executed on the Raspberry Pi.
