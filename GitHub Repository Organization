@@ -1,0 +1,88 @@
+# Project 5 — GitHub Repository Organization & Portfolio Maintenance
+
+## Project Overview
+
+**Category:** GitHub, Git, Documentation, Portfolio Management  
+**Platform:** GitHub  
+**Repository:** [Cybersecurity Learning Lab](https://github.com/Lelosky25/cybersecurity-learning-lab)  
+**Status:** Completed
+
+### Objective
+
+The objective of this project was to organize my cybersecurity learning repository into a clean, structured, and professional portfolio. I wanted to separate written project documentation from screenshots while keeping the main branch focused on the repository overview and featured work.
+
+## Tasks Completed
+
+### 1. Repository Branch Organization
+
+Organized the repository using separate branches for different types of content:
+
+- **`main`** — Main repository overview and selected featured projects.
+- **`project-docs`** — Written project documentation and technical notes.
+- **`project-photos`** — Screenshots and visual evidence from lab projects.
+
+This structure makes it easier to maintain the repository as additional cybersecurity projects are completed.
+
+### 2. Documentation Separation
+
+Moved and organized written project documentation within the `project-docs` branch.
+
+The documentation covers earlier lab work, including:
+
+- Raspberry Pi OS and Ubuntu Server setup.
+- SSH and remote administration.
+- Linux account and access management.
+- Linux file permissions.
+
+The goal was to make the written explanations easier to locate without cluttering the main portfolio branch.
+
+### 3. Screenshot Organization
+
+Organized the project screenshots in the `project-photos` branch.
+
+Original image filenames were retained to avoid breaking existing image links and references. The plan is to use descriptions or captions alongside the images so visitors can identify what each screenshot demonstrates.
+
+### 4. Repository Cleanup
+
+Removed unnecessary content and reviewed the repository structure to make it easier to navigate.
+
+Changes were made with the goal of keeping the repository readable, avoiding unnecessary duplication, and maintaining a clear separation between featured projects, written documentation, and screenshots.
+
+## Skills Practiced
+
+- GitHub repository management.
+- Git branch organization.
+- Documentation maintenance.
+- Screenshot and supporting-file organization.
+- Markdown README editing.
+- Basic version-control workflow awareness.
+- Cybersecurity portfolio presentation.
+- Maintaining consistent links and filenames.
+
+## Outcome
+
+The repository now has a clearer organization strategy, with dedicated branches for written documentation and project screenshots alongside the main portfolio branch.
+
+This work established a repeatable structure for adding future home lab projects without making the main branch unnecessarily cluttered.
+
+## Lessons Learned
+
+- A well-organized repository makes technical work easier to review.
+- Branches can separate different types of work while preserving independent versions of the repository.
+- Changing filenames can break references, so existing image paths should be checked before renaming files.
+- Clear README files help visitors understand a repository without having to inspect every file.
+- Repository cleanup is an ongoing maintenance task, not something that only happens at the beginning of a project.
+
+## Future Improvements
+
+- Add descriptive captions for individual screenshots.
+- Improve README navigation with links to project documentation.
+- Use consistent Markdown formatting across all projects.
+- Review the repository periodically for broken links and unnecessary files.
+- Continue adding practical Linux and cybersecurity projects with documented objectives, procedures, and results.
+
+## Conclusion
+
+This project improved the structure and maintainability of my cybersecurity learning portfolio. It reinforced the importance of documentation, version control, and organized technical work. These practices will support future home lab projects and help present my ongoing development toward a cybersecurity career.
+
+**Project status:** Completed
